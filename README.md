@@ -20,7 +20,6 @@ Functionality: On-the-fly product info generation during conversations
 
 3. AI Sales Agent
 The heart of the project is the AI-powered sales agent. Using Langchain, Google's Gemini Model, and custom LLM chains, the agent interacts with potential customers, guiding them through different stages of a sales conversation.
-
 Sales Stages:
 Introduction
 Qualification
@@ -34,13 +33,18 @@ Determines conversation stage based on history
 Provides product details from the RAG pipeline
 Speech recognition (via speech_recognition) for handling voice inputs
 Text-to-speech capabilities (using pyttsx3) to verbally respond to the customer
-4. Lead Categorization
+
+
+5. Lead Categorization
 The AI sales agent can categorize leads based on conversation context, identifying whether a prospect is a Hot Lead, Cold Lead, or a Conversion.
 
-5. Voice Input Handling
-This project also incorporates speech recognition to capture and process user input through a microphone, enabling a fully interactive, voice-enabled sales agent.
 
+
+7. Voice Input Handling
+This project also incorporates speech recognition to capture and process user input through a microphone, enabling a fully interactive, voice-enabled sales agent.
 Technology Used: SpeechRecognition, Pyttsx3
+
+
 
 How to use it --
 
