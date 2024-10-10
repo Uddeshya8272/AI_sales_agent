@@ -1,0 +1,11 @@
+Steps followed to Run the AI sales agent.
+
+--- Prepare to have the data about the products for the knowledge base of the agent (RAG).
+--- Make sure to check for the div's and classes in the file. It is now set towards the most selling Phones
+of the flipkark e-commerce website.
+--- Adjust the web drivers and the link from there.
+--- ""make sure to put the keys into the .env file.""" from google api key centre.
+--- after having the csv file move to the RAG folder. You can also initiate from the RAG folder because i have provided the products_info.csv
+--- Provide that file to the RAG, data folder
+--- Run the sales_with_gemini.py to ensure that it is running fine.
+--- now run the sales_pen_git.py to run the agent.
