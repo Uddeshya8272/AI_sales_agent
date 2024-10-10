@@ -3,17 +3,21 @@ Project Overview
 This project integrates web scraping, RAG (Retrieval-Augmented Generation) pipeline, and an AI-powered sales agent to automate product sales interactions. The system scrapes product data, uses advanced AI models for sales conversation, and interacts with customers to guide them through the sales funnel.
 
 Features
+
+
 1. Web Scraping
 The project starts with scraping product data from the web. The scraped information includes product names, prices, specifications, and discounts, stored in a CSV file.
-
 Technology Used: BeautifulSoup, Requests
 Data Output: products_info.csv
 Columns: Product Name, Current Price, Original Price, Discount, Specifications
+
+
 2. RAG Pipeline Integration
 Once the data is scraped, it is integrated into a RAG (Retrieval-Augmented Generation) Pipeline. The RAG model pulls relevant product information during the sales conversation to assist the AI agent.
-
 Data Source: Scraped product data
 Functionality: On-the-fly product info generation during conversations
+
+
 3. AI Sales Agent
 The heart of the project is the AI-powered sales agent. Using Langchain, Google's Gemini Model, and custom LLM chains, the agent interacts with potential customers, guiding them through different stages of a sales conversation.
 
