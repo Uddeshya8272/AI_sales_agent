@@ -1,0 +1,13 @@
+pandas
+langchain
+langchain_google_genai
+langchain_community
+chromadb
+python-dotenv
+SpeechRecognition
+pyttsx3
+openai-whisper
+pyaudio
+selenium
+webdriver_manager
+ChatGoogleGenerativeAI
